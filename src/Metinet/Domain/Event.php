@@ -22,10 +22,11 @@ class Event
     private $publicEvent;
     private $price;
     private $participants;
+    private $timetable;
     //TODO HORAIRES
 
 
-    public function __construct(string $name, string $description, string $objectif, DateEvent $date, Salle $salle, Student $author, bool $publicEvent, ?int $price = null)
+    public function __construct(string $name, string $description, string $objectif, DateEvent $date, Salle $salle, Student $author, bool $publicEvent, ?int $price = null, Timetable $timetable)
     {
         $this->name = $name;
         $this->description = $description;
@@ -35,6 +36,7 @@ class Event
         $this->author = $author;
         $this->publicEvent = $publicEvent;
         $this->price = $price;
+        $this->timetable = $timetable;
     }
 
     public function getPersonMax() :int
