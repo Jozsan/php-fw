@@ -9,7 +9,7 @@
 namespace Metinet\Domain;
 
 
-class InvalidTimetable
+class InvalidTimetable extends \Exception
 {
     public static function startingHourHigherEndingHour(): self
     {

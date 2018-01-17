@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6992dec7-d36a-4143-856e-6fe263b6f5dd" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/php-fw.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Metinet/Domain/InvalidTimetable.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Metinet/Domain/Timetable.php" />
-      <change beforePath="$PROJECT_DIR$/src/Metinet/Domain/Event.php" afterPath="$PROJECT_DIR$/src/Metinet/Domain/Event.php" />
+      <change beforePath="$PROJECT_DIR$/src/Metinet/Domain/InvalidTimetable.php" afterPath="$PROJECT_DIR$/src/Metinet/Domain/InvalidTimetable.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,8 +19,8 @@
       <file leaf-file-name="Event.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Metinet/Domain/Event.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+            <state relative-caret-position="400">
+              <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -35,8 +29,18 @@
       <file leaf-file-name="Timetable.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Metinet/Domain/Timetable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="546">
+              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InvalidDateEvent.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Metinet/Domain/InvalidDateEvent.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -45,8 +49,8 @@
       <file leaf-file-name="InvalidTimetable.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Metinet/Domain/InvalidTimetable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="156">
+              <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -193,12 +197,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516199278715</updated>
-      <workItem from="1516199280010" duration="1445000" />
+      <workItem from="1516199280010" duration="1666000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1445000" />
+    <option name="totallyTimeSpent" value="1666000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-6" width="1680" height="995" extended-state="6" />
@@ -259,26 +263,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Metinet/Domain/Timetable.php">
+    <entry file="file://$PROJECT_DIR$/src/Metinet/Domain/Event.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="400">
+          <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Metinet/Domain/Event.php">
+    <entry file="file://$PROJECT_DIR$/src/Metinet/Domain/Timetable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        <state relative-caret-position="546">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Metinet/Domain/InvalidDateEvent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Metinet/Domain/InvalidTimetable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="156">
+          <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
           <folding />
         </state>
       </provider>
