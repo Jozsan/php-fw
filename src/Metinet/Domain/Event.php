@@ -37,6 +37,7 @@ class Event
         $this->publicEvent = $publicEvent;
         $this->price = $price;
         $this->timetable = $timetable;
+        $this->participants = [];
     }
 
     public function getPersonMax() :int
@@ -47,8 +48,12 @@ class Event
         return $this->publicEvent;
     }
     public function addParticipant(User $participant){
-        $this->participants[] = $participant;
+
+        if(count($this->participants) < $this->salle->getNbPersonneMax()) {
+            $this->participants[] = $participant;
+        }
+        else{
+            throw new \Exception(500);
+        }
     }
-
-
 }

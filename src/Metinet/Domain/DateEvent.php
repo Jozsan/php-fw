@@ -21,7 +21,7 @@ class DateEvent
     private function __construct(string $dateEvent)
     {
         $dateEventDateTime = \DateTimeImmutable::createFromFormat('Y-m-d H:i:s', sprintf('%s 23:59:59', $dateEvent));
-        if ($dateEventDateTime < new \DateTimeImmutable('now')) {
+        if ($dateEventDateTime > new \DateTimeImmutable('now')) {
 
             throw InvalidDateEvent::mustNotBeInThePast();
         }

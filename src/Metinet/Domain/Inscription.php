@@ -21,5 +21,8 @@ class Inscription
             $this->user = $user;
             $event->addParticipant($user);
         }
+        else{
+            throw new \Exception(500);
+        }
     }
 }

@@ -17,7 +17,7 @@ class Timetable
 
     public function __construct(int $startingHour, int $endingHour)
     {
-        if ($endingHour >= $startingHour)
+        if ($startingHour >= $endingHour)
         {
                 throw InvalidTimetable::startingHourHigherEndingHour();
         }

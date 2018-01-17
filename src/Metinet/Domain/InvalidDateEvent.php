@@ -13,6 +13,6 @@ class InvalidDateEvent extends \Exception
 {
     public static function mustNotBeInThePast(): self
     {
-        return new self('Date Of Birth cannot be in the past');
+        return new self('Date Of Event cannot be in the past');
     }
 }
