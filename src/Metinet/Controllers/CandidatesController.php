@@ -33,4 +33,8 @@ class CandidatesController
 
         return new Response($content);
     }
+    public function login(Request $request): Response
+    {
+        return new Response(sprintf('<p>Hello %s</p>', $request->getQuery()->get('name', 'Anonymous')));
+    }
 }

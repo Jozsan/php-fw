@@ -25,6 +25,20 @@
         "GET"
       ],
       "action": "Metinet:Controllers:CandidatesController::disBonjour"
+    },
+    "login": {
+      "path": "/login",
+      "methods": [
+        "GET"
+      ],
+      "action": "Metinet:Controllers:AccountController::login"
+    },
+    "logout": {
+      "path": "/logout",
+      "methods": [
+        "GET"
+      ],
+      "action": "Metinet:Controllers:AccountController::logout"
     }
   }
 }
