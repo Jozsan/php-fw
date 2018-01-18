@@ -23,4 +23,8 @@ class Mail
         }
         $this->mail = $mail;
     }
+    public function __toString()
+    {
+        return $this->mail;
+    }
 }

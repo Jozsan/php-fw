@@ -19,10 +19,12 @@ class AccountController
 {
     public function login(Request $request): Response
     {
+        // ---------TEST SECTION ----------------------------------
         $mail = Mail::createFromString("j.santiago@gmail.com");
         $password = new Password("jose");
         $account = new Account($mail, $password);
         $accountRepository = new AccountRepository([$account]);
+        // ---------------------------------------------------------
 
         $email = Mail::createFromString($request->getQuery()->get('email'));
         $passwordRequest = $request->getQuery()->get('password');

@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6992dec7-d36a-4143-856e-6fe263b6f5dd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/Metinet/Controllers/AccountController.php" afterPath="$PROJECT_DIR$/src/Metinet/Controllers/AccountController.php" />
-      <change beforePath="$PROJECT_DIR$/src/Metinet/Domain/Account.php" afterPath="$PROJECT_DIR$/src/Metinet/Domain/Account.php" />
-      <change beforePath="$PROJECT_DIR$/src/Metinet/Repository/AccountRepository.php" afterPath="$PROJECT_DIR$/src/Metinet/Repository/AccountRepository.php" />
+      <change beforePath="$PROJECT_DIR$/src/Metinet/Domain/Mail.php" afterPath="$PROJECT_DIR$/src/Metinet/Domain/Mail.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,7 +30,7 @@
       <file leaf-file-name="Account.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Metinet/Domain/Account.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
+            <state relative-caret-position="180">
               <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding />
             </state>
@@ -50,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Password.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Password.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Metinet/Domain/Password.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+            <state relative-caret-position="260">
+              <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -70,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mail.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Mail.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Metinet/Domain/Mail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="520">
+              <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -93,8 +92,8 @@
       <file leaf-file-name="AccountController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Metinet/Controllers/AccountController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            <state relative-caret-position="440">
+              <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
               <folding>
                 <element signature="e#6#84#0#PHP" expanded="true" />
                 <element signature="e#118#148#0#PHP" expanded="true" />
@@ -145,11 +144,11 @@
         <option value="$PROJECT_DIR$/src/Repository/AccountRepository.php" />
         <option value="$PROJECT_DIR$/conf/app.json" />
         <option value="$PROJECT_DIR$/public/index.php" />
-        <option value="$PROJECT_DIR$/src/Metinet/Domain/Mail.php" />
         <option value="$PROJECT_DIR$/src/Metinet/Domain/Account.php" />
-        <option value="$PROJECT_DIR$/src/Metinet/Controllers/AccountController.php" />
         <option value="$PROJECT_DIR$/src/Metinet/Repository/AccountRepository.php" />
         <option value="$PROJECT_DIR$/src/Metinet/Domain/Password.php" />
+        <option value="$PROJECT_DIR$/src/Metinet/Controllers/AccountController.php" />
+        <option value="$PROJECT_DIR$/src/Metinet/Domain/Mail.php" />
       </list>
     </option>
   </component>
@@ -285,12 +284,12 @@
       <option name="presentableId" value="Default" />
       <updated>1516199278715</updated>
       <workItem from="1516199280010" duration="5930000" />
-      <workItem from="1516264322539" duration="9538000" />
+      <workItem from="1516264322539" duration="9899000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15468000" />
+    <option name="totallyTimeSpent" value="15829000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-6" width="1680" height="995" extended-state="6" />
@@ -521,14 +520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Metinet/Domain/Mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Metinet/Core/Config/LoggerFactory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -555,25 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Metinet/Domain/Account.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Metinet/Controllers/AccountController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding>
-            <element signature="e#6#84#0#PHP" expanded="true" />
-            <element signature="e#118#148#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Metinet/Repository/AccountRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
@@ -584,8 +556,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Metinet/Domain/Password.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        <state relative-caret-position="260">
+          <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Metinet/Domain/Account.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Metinet/Controllers/AccountController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding>
+            <element signature="e#6#84#0#PHP" expanded="true" />
+            <element signature="e#118#148#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Metinet/Domain/Mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
           <folding />
         </state>
       </provider>
