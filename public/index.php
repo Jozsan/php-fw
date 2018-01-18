@@ -13,9 +13,9 @@ use Metinet\Core\Config\JsonFileLoader;
 use Metinet\Core\Config\ChainLoader;
 use Metinet\Core\Controller\ControllerResolver;
 use Metinet\Core\Config\Configuration;
+use Metinet\Domain\Account;
 
 $request = Request::createFromGlobals();
-
 $loader = new ChainLoader([
     new JsonFileLoader([__DIR__ . '/../conf/app.json']),
 ]);

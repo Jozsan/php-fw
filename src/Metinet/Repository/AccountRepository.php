@@ -51,4 +51,14 @@ class AccountRepository
         }
         throw new \Exception("Mauvais login / password", 500);
     }
+
+    public function isExist($mail){
+        foreach ($this->accounts as $account) {
+
+            if ($account->getMail() == $mail) {
+                return true;
+            }
+        }
+        return false;
+    }
 }

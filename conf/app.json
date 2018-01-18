@@ -39,6 +39,13 @@
         "GET"
       ],
       "action": "Metinet:Controllers:AccountController::logout"
+    },
+    "register": {
+      "path": "/register",
+      "methods": [
+        "GET"
+      ],
+      "action": "Metinet:Controllers:AccountController::register"
     }
   }
 }
