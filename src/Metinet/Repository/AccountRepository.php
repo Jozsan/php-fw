@@ -45,7 +45,7 @@ class AccountRepository
     {
         foreach ($this->accounts as $account) {
 
-            if ($account->getMail() == $mail && $account->getPassword() == $password) {
+            if ($account->getMail() == $mail && password_verify($password, $account->getPassword())) {
                 return $account;
             }
         }

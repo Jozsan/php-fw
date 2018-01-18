@@ -14,7 +14,7 @@ class Account
     private $mail;
     private $password;
 
-    public function __construct(Mail $mail, string $password)
+    public function __construct(Mail $mail, Password $password)
     {
         $this->mail = $mail;
         $this->password = $password;

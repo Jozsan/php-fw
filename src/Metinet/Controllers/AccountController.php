@@ -11,6 +11,7 @@ namespace Metinet\Controllers;
 use Metinet\Core\Http\Request;
 use Metinet\Core\Http\Response;
 use Metinet\Domain\Account;
+use Metinet\Domain\Password;
 use Metinet\Repository\AccountRepository;
 use Metinet\Domain\Mail;
 
@@ -19,11 +20,13 @@ class AccountController
     public function login(Request $request): Response
     {
         $mail = Mail::createFromString("j.santiago@gmail.com");
-        $account = new Account($mail, "password");
+        $password = new Password("jose");
+        $account = new Account($mail, $password);
         $accountRepository = new AccountRepository([$account]);
+
         $email = Mail::createFromString($request->getQuery()->get('email'));
-        $password = $request->getQuery()->get('password');
-        $account = $accountRepository->verifyCredentials($email, $password);
+        $passwordRequest = $request->getQuery()->get('password');
+        $accountRepository->verifyCredentials($email, $passwordRequest);
         if(!isset($_SESSION))
         {
             session_start();
